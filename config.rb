@@ -46,3 +46,8 @@ page "/footer.html", :layout => "layout"
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+# Use “pretty” URLs (without the `.html` suffix)
+activate :directory_indexes
+
+# Append hashes to compiled assets
+activate :asset_hash
