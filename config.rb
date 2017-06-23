@@ -59,6 +59,13 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
+
+page "/footer.html", :layout => "layout"
+page "/index.html", :layout => "layout"
+
 configure :build do
   activate :minify_css
   activate :minify_javascript
