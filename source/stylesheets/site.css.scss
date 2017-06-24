@@ -1,16 +1,58 @@
 //Body
-.clearfix {
-  overflow: auto;
+.Rectangle-18 {
+  width: 100%;
+  height: 35px;
+  background-color: #173057;
+  
 }
-.group:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.group { display: inline-block; }
+
+.navbar-nav-pub {
+   padding-top: 9px;
+   font-size: 14px;
+   font-weight: 500;
+   text-align: right;
+   color: #ffffff;
+   margin-right: 15px !important;
+  }
+
+.Rectangle {
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+
+}
+.nav1{
+    margin-left: 300px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    margin-right: 15px !important;
+    
+  }
+.navbar-nav-rec{
+  padding-top:10px;
+    padding-left: 10px !important;
+    margin-top: 24px;
+    margin-bottom: 20px;
+   }
+   .start{
+      margin-left: 40px;
+      margin-top: 9px;
+      font-size: 14px;
+      text-align: center;
+      color: #173057;
+    }
+// .clearfix {
+//   overflow: auto;
+// }
+// .group:after {
+//      visibility: hidden;
+//      display: block;
+//      font-size: 0;
+//      content: " ";
+//      clear: both;
+//      height: 0;
+//      }
+// .group { display: inline-block; }
 .-Landing-FINAL {
   width: 100%;
   // height: 6751px;
@@ -59,7 +101,7 @@
 
 .Rectangle-11-Copy {
   width: 100%;
-  height: 319px;
+  // height: 319px;
   background-color: #173057;
 }
 .Rectangle-12-Copy {
@@ -389,17 +431,20 @@ margin-top: 43px;
   background-color: #298cf7;
 }
 .Home-mission{
-  padding-top: 43px;
+  padding-top: 10%;
   padding-bottom: 100px;
   padding-left: 9% !important;
   padding-right: 9% !important;
+  height:800px;
 }
 .Home-founder{
-  padding-top: 43px;
+  padding-top: 10%;
   padding-bottom: 70px;
   padding-left: 9% !important;
   padding-right: 9% !important;
   background-color: #ffffff;
+   height:800px;
+   padding-bottom: 100px;
 }
 .Our-Mission {
   // width: 377px;
@@ -410,6 +455,7 @@ margin-top: 43px;
   line-height: 1.5;
   text-align: left;
   color: #ffffff;
+ 
 }
 .Our-mission-at-Trudo {
   // width: 385px;
@@ -433,4 +479,80 @@ margin-top: 43px;
   width: 104px;
   height: 104px;
   object-fit: contain;
+}
+.Rectangle-17 {
+  width: 183px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #298cf7;
+}
+
+//Partners
+.partners-content{
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+.We-use-real-time-val {
+  font-size: 17px;
+  line-height: 2;
+  text-align: left;
+  color: #778aa7;
+  padding-top:55px;
+}
+.partners-col{
+  padding-right:10% !important;
+}
+.Rectangle-3 {
+  width: 224px;
+  height: 116px;
+  border: solid 1px #e1eaf4;
+}
+.Whitepagespro_grayscale {
+  width: 179px;
+  height: 34px;
+  object-fit: contain;
+}
+.tune_grayscale {
+  width: 150px;
+  height: 79px;
+  object-fit: contain;
+}
+.Briteverify_grayscale {
+  width: 194px;
+  height: 78px;
+  object-fit: contain;
+}
+.boberdoo_grayscale {
+  width: 189px;
+  height: 39px;
+  object-fit: contain;
+}
+.Jornaya_grayscale {
+  width: 153px;
+  height: 41px;
+  object-fit: contain;
+}
+.dncsolution_grayscale {
+  width: 179px;
+  height: 32px;
+  object-fit: contain;
+}
+.img-paddding1{
+  padding: 40px !important;
+}
+.img-paddding2{
+  padding-top:30px;
+  padding: 40px !important;
+}
+.img-paddding3{
+  padding: 40px !important;
+}
+.img-paddding4{
+  padding: 40px !important;
+}
+.img-paddding5{
+  padding: 40px !important;
+}
+.img-paddding6{
+  padding: 40px !important;
 }
